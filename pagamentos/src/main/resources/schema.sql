@@ -1,4 +1,3 @@
-
 CREATE TABLE pagamentos (
  id bigint(20) NOT NULL AUTO_INCREMENT,
  valor decimal(19,2) NOT NULL,
