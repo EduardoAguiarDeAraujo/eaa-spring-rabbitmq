@@ -12,7 +12,7 @@
 	<artifactId>avaliacao</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>avaliacao</name>
-	<description>MS de Avaliação do Alura Food</description>
+	<description>MS de Avaliação</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -41,6 +41,14 @@
 			<artifactId>spring-rabbit-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
